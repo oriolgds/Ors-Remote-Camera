@@ -52,6 +52,3 @@ jobs:
       - name: Build apk
         run: flutter build apk --no-color
 
-      - name: Build Windows
-        run: flutter build windows
-
