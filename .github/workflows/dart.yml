@@ -37,8 +37,7 @@ jobs:
       # Consider passing '--fatal-infos' for slightly stricter analysis.
       - name: Analyze project source
         run: dart analyze
-
-      -
+      
 
       # Your project will need to have tests in test/ and a dependency on
       # package:test for this step to succeed. Note that Flutter projects will
@@ -47,4 +46,7 @@ jobs:
       #  run: dart test
       - name: Build apk
         run: flutter build apk --no-color
+
+      - name: Build Windows
+        run: flutter build windows
 
