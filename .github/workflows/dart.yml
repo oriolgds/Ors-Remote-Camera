@@ -49,8 +49,6 @@ jobs:
       # want to change this to 'flutter test'.
       #- name: Run tests
       #  run: dart test
-      - name: Create folder
-        run: mkdir -p build/apk
 
         
       - name: Build apk
@@ -60,6 +58,6 @@ jobs:
         uses: actions/upload-artifact@v3.1.3
         with:
           name: apk-release
-          path: build/apk/
+          path: build/app/outputs/flutter-apk/app-release.apk
             
 
