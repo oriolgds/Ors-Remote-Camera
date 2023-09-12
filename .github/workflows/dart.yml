@@ -52,3 +52,7 @@ jobs:
       - name: Build apk
         run: flutter build apk --no-color
 
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.3
+            
+
