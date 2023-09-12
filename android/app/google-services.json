@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1056409113251",
+    "firebase_url": "https://ors-camera-remote-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ors-camera-remote",
+    "storage_bucket": "ors-camera-remote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056409113251:android:94491e7fa46cfd2a26e516",
+        "android_client_info": {
+          "package_name": "com.orsapps.ors_remote_camera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056409113251-81f62e84t9hit2hd9lc124es6llbjlve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNxkQ5UM-vO5jnTakvYS4DdGPi2LZu7IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056409113251-81f62e84t9hit2hd9lc124es6llbjlve.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1056409113251-841c8t22csolmvu05nmpvtm9mmnb5ocp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.orsapps.orsRemoteCamera"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

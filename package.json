@@ -1,0 +1,27 @@
+{
+  "name": "ors-remote-camera",
+  "version": "1.0.0",
+  "description": "Ors Remote Camera: Visualiza cámaras remotas desde otro dispositivo móvil.",
+  "main": "main.dart",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oriolgds/Ors-Remote-Camera.git"
+  },
+  "keywords": [
+    "Camera",
+    "remote",
+    "firebase"
+  ],
+  "author": "oriolgds",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oriolgds/Ors-Remote-Camera/issues"
+  },
+  "homepage": "https://github.com/oriolgds/Ors-Remote-Camera#readme"
+}
