@@ -49,6 +49,10 @@ jobs:
       # want to change this to 'flutter test'.
       #- name: Run tests
       #  run: dart test
+      - name: Create folder
+        run: mkdir -p build/apk
+
+        
       - name: Build apk
         run: flutter build apk --no-color
 
